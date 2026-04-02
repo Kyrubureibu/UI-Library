@@ -48,7 +48,7 @@ search filtering, smooth animations, and theming — so you can focus on your sc
 ### Basic setup
 
 ```lua
-local lib = loadstring(game:HttpGet("YOUR_RAW_URL_HERE"))()
+local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kyrubureibu/UI-Library/main/AppleLibrary.lua"))()
 
 local win = lib:init(
     "My Script",         -- Window title
